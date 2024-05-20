@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CultivatePro</title>
+    <link rel="stylesheet" href="style.css" />
+        <head> 
+            <Style>
+
+
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                  }
+                  body {
+                    display: flex;
+                    height: 100vh;
+                    align-items: center;
+                    justify-content: center;
+                   
+                    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, 
+#FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+                  }
+                  .wrapper {
+                    display: flex;
+                    column-gap: 30px;
+                  }
+                  .wrapper .dot {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    background: #008ae6;
+                    box-shadow: 0 5px 10px rgba(19, 14, 14, 0.676);
+                    animation: animate 1s ease-in-out infinite alternate;
+                  }
+                  .dot:nth-child(1) {
+                    animation-delay: -0.25s;
+                  }
+                  .dot:nth-child(2) {
+                    background: #e60000;
+                    animation-delay: -0.5s;
+                  }
+                  .dot:nth-child(3) {
+                    background: #ffcc00;
+                    animation-delay: -0.75s;
+                  }
+                  .dot:nth-child(4) {
+                    background: #0fd50f;
+                    animation-delay: -1s;
+                  }
+                  .container {
+                    max-width: 600px;
+                    margin: 50px auto;
+                    text-align: center;
+                }
+            
+                h1 {
+                    font-size: 60px;
+                    margin-bottom: 10px;
+                    color: #000000;
+                    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+                }
+            
+                p {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    color: #000000;
+                    line-height: 1.8;
+                }
+            
+                .construction {
+                    font-size: 24px;
+                    color: #ff6600;
+                    animation: blink 3s infinite alternate;
+                }
+            
+                  
+                  @keyframes animate {
+                    0% {
+                      transform: translateY(-15px);
+                    }
+                    100% {
+                      transform: translateY(5px);
+                    }
+                  }
+            </Style>
+        </head>
+  <body>
+      
+    <div class="wrapper">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="container">
+        <h1>Website Under Construction</h1>
+        <p>Please excuse our appearance while we work on making this site even better.</p>
+        <button onclick="window.location.href = 'index.php';" style="padding: 10px 20px; background-color: #000000; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Back to home</button>
+    </div>
+  </body>
+</html>

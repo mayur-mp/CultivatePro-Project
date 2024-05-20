@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <!-- Include dotlottie-player script -->
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+        }
+        h1 {
+            text-align: center;
+            font-size: 4em;
+            color: #009637;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            text-decoration: wavy;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .payment-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+        }
+        .payment-container .dotlottie-player {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Display a big text saying "Payment Successful" with CSS styling -->
+    <h1>Payment Successful *</h1>
+    <
+    <!-- Embed dotlottie-player with animation -->
+    <div class="payment-container">
+        <dotlottie-player class="dotlottie-player" src="https://lottie.host/1866562a-aba5-4a95-a498-2735a6c7f6b3/YaZW1YgSs2.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+    </div>
+    
+    <!-- Redirect to index.php after 5 seconds -->
+    
+    <script>
+        setTimeout(function() {
+            window.location.href = "index.php";
+        }, 3000); // 5000 milliseconds = 5 seconds
+    </script>
+    
+</body>
+</html>
