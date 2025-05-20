@@ -9,7 +9,7 @@ error_reporting(0);
 <head>
 
 <title>Cultivate Pro | Machine Listing</title>
-<!--Bootstrap --------->
+
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
